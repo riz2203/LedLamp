@@ -17,7 +17,7 @@ public:
   std::string button2Pushed();
 
   //define a std::map to store LED Driver API functions
-  //where as button1 abd button2 state (int, int) is the key for this map
+  //where as button1 and button2 state (int, int) is the key for this map
   typedef std::map<std::pair<int, int>, LedDriverApi> LedDriverApiFunctionMap;
 
 private:
